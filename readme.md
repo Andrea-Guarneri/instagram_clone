@@ -12,7 +12,7 @@ This project is a simple exercise in HTML and CSS aimed at recreating the basic 
 
 ## Usage
 
-- Cyou can access directly via this link: https://instagram-clone-andrea.netlify.app
+- You can access directly via this link: https://instagram-clone-andrea.netlify.app
 
 - Open the index.html file in your preferred web browser.
 
