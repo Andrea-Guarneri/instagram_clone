@@ -12,15 +12,13 @@ This project is a simple exercise in HTML and CSS aimed at recreating the basic 
 
 ## Usage
 
--Clone the repository:
-
-
+- Clone the repository:
 
 - Open the index.html file in your preferred web browser.
 
 - Explore the Instagram clone interface and the CSS properties used for styling.
 
-## Credits
+## Credits
 This project is inspired by the Instagram platform and serves as an exercise in HTML and CSS. It was created by Andrea Guarneri.
 
 
