@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     color: #eee;
-    max-width: 1440px;
 }
 
 :root {
@@ -16,24 +15,26 @@
 
 body {
     width: 100%;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: var(--background-dark-color);
     font-family: "Roboto", sans-serif;
 }
 
-.main {
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.stories {
     display: flex;
     flex-direction: column;
 }
 
-.main-content {
+.stories-content {
     max-width: 1440px;
     width: 100%;
-
+    display: flex;
 }
 
 /* Highlights stories */
@@ -90,58 +91,57 @@ body {
     flex-direction: column;
     width: 100%;
     max-width: 600px;
-    margin: 20px auto 0;
-    padding: 20px;
     height: auto;
-    border: 1px solid var(--border-post);
     border-radius: 5px;
+}
+
+.post {
+    border-bottom: 1px solid var(--border-post);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* Info user posts*/
 
-.information-user {
-    width: 100%;
-    height: 60px;
+
+.header-post {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    justify-content: space-between;
 }
 
-.information-user .user-name {
-    width: auto;
+
+.header-post .user-name {
     font-weight: bold;
     color: var(--white-color-font);
     font-size: 14px;
     margin-left: 10px;
 }
 
-.information-user .option {
+.header-post .option {
     height: 20px;
     cursor: pointer;
 }
 
-.information-user .user-post {
+.header-post .information-user {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-    margin-left: right;
 }
 
-.information-user .highlights-profile {
+.header-post .highlights-profile {
     height: 60px;
     width: 60px;
     padding: 2px;
     cursor: pointer;
 }
 
-.information-user .post-time {
+.header-post .post-time {
     align-items: center;
     margin-top: 5px;
     margin-left: 5px;
 }
 
-.information-user .icone-verification {
+.header-post .icone-verification {
     width: 20px;
     margin-left: 3px;
 }
@@ -149,22 +149,26 @@ body {
 /* images and videos setting posts*/
 
 .cover-post {
+    margin-top: 1rem;
     width: 100%;
-    height: auto;
+    height: 600px;
+    object-fit: cover;
+    border: 1px solid var(--border-post)
 }
+
 
 .content-post {
     width: 100%;
-    padding: 20px;
 }
 
 /* Reaction icones posts*/
 
 .reaction-icones {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
     width: 100%;
     height: 50px;
     display: flex;
-    margin-top: -20px;
     align-items: center;
     cursor: pointer;
 }
@@ -221,8 +225,3 @@ body {
 }
 
 /* Dividing border posts */
-
-.dividing-line{
-    margin-bottom:20px;
-    border: 1px solid var(--border-post);
-}
