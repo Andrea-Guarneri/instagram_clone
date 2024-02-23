@@ -15,6 +15,8 @@
 
     <!-- CSS Styles -->
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- CSS ESPECIFICO -->
+    <link rel="stylesheet" href="styles/styles-index.css">
 
     <!-- Logo Icon -->
     <link rel="icon" href="./assets/icones/instagram.png" type="image/x-icon">
@@ -24,6 +26,118 @@
 
 <body>
 
+    <!-- Sidebar -->
+    <aside>
+
+        <div class="header-sidebar">
+            <img src="./assets/icones/logo_text-white.png" alt="" class="logo-instagram">
+        </div>
+
+        <nav class="navbar-sidebar">
+
+            <ul>
+                <!--  icon with text (row link)  -->
+                <li>
+                    <a href="">
+                        <!-- icon -->
+                        <img src="./assets/icones/home.png" alt="" class="icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <!--  icon with text (row link)  -->
+                <li>
+                    <a href="">
+                        <!-- icon -->
+                        <img src="./assets/icones/search.png" alt="" class="icon">
+                        <span>Search</span>
+                    </a>
+                </li>
+
+                <!--  icon with text (row link)  -->
+                <li>
+                    <a href="">
+                        <!-- icon -->
+                        <img src="./assets/icones/explore.png" alt="" class="icon">
+                        <span>Explorer</span>
+                    </a>
+                </li>
+
+                <!--  icon with text (row link)  -->
+                <li>
+                    <a href="">
+                        <!-- icon -->
+                        <img src="./assets/icones/reels.png" alt="" class="icon">
+                        <span>Reels</span>
+                    </a>
+                </li>
+
+                <!--  icon with text (row link)  -->
+                <li>
+                    <a href="">
+                        <!-- icon -->
+                        <div id="messages">
+                            <img src="./assets/icones/message.png" alt="" class="icon">
+
+                            <div class="notification">1</div>
+                        </div>
+                        <span>Messages</span>
+                    </a>
+                </li>
+
+                <!--  icon with text (row link)  -->
+                <li>
+                    <a href="">
+                        <!-- icon -->
+                        <img src="./assets/icones/love.png" alt="" class="icon">
+                        <span>Notifications</span>
+                    </a>
+                </li>
+
+
+                <!--  icon with text (row link)  -->
+                <li>
+                    <a href="">
+                        <!-- icon -->
+                        <img src="./assets/icones/add-square.png" alt="" class="icon">
+                        <span>Create</span>
+                    </a>
+                </li>
+
+                <!--  icon with text (row link)  -->
+                <li>
+                    <a href="" id="profile">
+                        <!-- icon -->
+                        <img src="./assets/images/profile9.avif" alt="" class="icon">
+                        <span>Profile</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div class="footer-sidebar">
+            <ul>
+                <li>
+                    <a href="">
+                        <!-- icon -->
+                        <img src="./assets/icones/threads-white.png" alt="" class="icon">
+                        <span>Threads</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <!-- icon -->
+                        <img src="./assets/icones/menu.png" alt="" class="icon">
+                        <span>More</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- Feed -->
     <main>
         <section class="stories">
 
@@ -137,7 +251,7 @@
                 <!-- image or video of the post -->
                 <img src="./assets/images/post_1.jpg" alt="" class="cover-post">
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -184,7 +298,7 @@
                 <!-- image or video of the post  -->
                 <img src="./assets/images/post_2.jpg" alt="" class="cover-post">
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -233,7 +347,7 @@
                 <!-- image or video of the post  -->
                 <img src="./assets/images/post_6.jpg" alt="" class="cover-post">
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -277,12 +391,12 @@
                 </div>
 
                 <!-- image or video of the post  -->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IY4x85zqoJM?si=246YNQaOEPy4s5QA"
-                    title="YouTube video player" frameborder="0"
+                <iframe src="https://www.youtube.com/embed/IY4x85zqoJM?si=246YNQaOEPy4s5QA" title="YouTube video player"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen class="cover-post"></iframe>
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -329,12 +443,12 @@
                 </div>
 
                 <!-- image or video of the post  -->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/8oZ-t1DlKyI?si=K1J66zKoMfU97hpk"
-                    title="YouTube video player" frameborder="0"
+                <iframe src="https://www.youtube.com/embed/8oZ-t1DlKyI?si=K1J66zKoMfU97hpk" title="YouTube video player"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen class="cover-post"></iframe>
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -383,7 +497,7 @@
                 <!-- image or video of the post  -->
                 <img src="./assets/images/post_3.jpg" alt="" class="cover-post">
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -436,7 +550,7 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen class="cover-post"></iframe>
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -487,7 +601,7 @@
                 <!-- image or video of the post  -->
                 <img src="./assets/images/post_5.jpg" alt="" class="cover-post">
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -538,7 +652,7 @@
                 <!-- image or video of the post  -->
                 <img src="./assets/images/post_4.jpg" alt="" class="cover-post">
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -592,7 +706,7 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen class="cover-post"></iframe>
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -646,7 +760,7 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen class="cover-post"></iframe>
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -700,7 +814,7 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen class="cover-post"></iframe>
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -754,7 +868,7 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen class="cover-post"></iframe>
 
-                <div class="content-post">
+                <div class="description-post">
                     <!-- Reaction icones and likes -->
                     <div class="reaction-icones">
                         <img src="./assets/icones/love.png" alt="" class="icones">
@@ -788,7 +902,6 @@
         </section>
 
     </main>
-
 
 </body>
 
