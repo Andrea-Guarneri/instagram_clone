@@ -197,6 +197,8 @@ main {
   cursor: pointer;
 }
 
+/* Aside */
+
 aside {
   position: fixed;
   height: 100%;
