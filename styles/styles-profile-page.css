@@ -1,6 +1,7 @@
 .main {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 /* Photo profile user */
@@ -30,7 +31,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: -45px;
     cursor: pointer;
 }
 
@@ -67,7 +68,8 @@
 .stats {
     display: flex;
     align-items: start;
-    margin-left: 55px;
+    text-align: justify;
+    margin-left: 27px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -112,36 +114,35 @@
 .description {
     width: 500px;
     margin-left: 50px;
+    text-align: justify;
 }
 
 .description p {
     font-size: 14px;
 }
 
-.description span {
+.description p span {
     font-size: 17px;
-    margin-right: auto;
 }
 
 /* Add icon */
-
 .add-icon {
     display: flex;
-    flex-direction: row;
-    align-items: start;
-    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    /* Modificato per allineare a sinistra */
     margin-top: 20px;
+    margin-left: -650px;
+    /* Aggiunto per posizionarlo a sinistra */
 }
 
 .add-icon .add img {
-    display: flex;
-    margin-left: 350px;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
 }
 
-.add-icon .label {
+.add-icon .label p {
     margin-top: 10px;
     font-size: 12px;
     color: #888;
@@ -153,7 +154,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid var(--border-post);
     margin-top: 40px;
+
 }
 
 .options-posts ul {
@@ -163,6 +166,8 @@
 
 .options-posts li {
     text-align: center;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .options-posts li a {
@@ -174,8 +179,8 @@
 }
 
 .options-posts li a img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 /* Photos gallery */
@@ -183,8 +188,9 @@
 .photos-container {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
     margin-top: 20px;
+    padding-bottom: 5px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -193,12 +199,13 @@
 
 .photos-container .photo {
     width: 100%;
-    padding-bottom: 100%;
+
 }
 
 .photos-container .photo img {
     width: 309px;
     height: 309px;
+    margin-bottom: -25px;
     object-fit: cover;
 }
 
