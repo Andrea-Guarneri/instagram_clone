@@ -14,7 +14,9 @@
 
 /* 0 1 2 3 4 5 6 7 8 9 a b c d e f */
 
-body {
+body,
+html {
+    height: 100%;
     width: 100%;
     background-color: var(--background-dark-color);
     font-family: "Roboto", sans-serif;
@@ -26,4 +28,10 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
 }

@@ -1,0 +1,246 @@
+aside {
+  position: fixed;
+  z-index: 100;
+  height: 100%;
+
+
+  padding: 40px 8px;
+  min-width: 335px;
+  border-right: 1px solid var(--border-post);
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+aside .header-sidebar {
+  margin-bottom: 40px;
+  padding-left: 16px;
+}
+
+aside .header-sidebar img {
+  width: 103px;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+aside ul li {
+  border-radius: 8px;
+  padding: 8px;
+  transition: background 0.5s;
+}
+
+aside ul li:hover {
+  background-color: #222;
+}
+
+aside ul li a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 400;
+}
+
+aside nav ul li a #messages {
+  display: flex;
+  position: relative;
+}
+
+aside nav ul li a .notification {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+aside nav ul li a#profile img {
+  border-radius: 100%;
+  width: 30px;
+}
+
+aside .footer-sidebar {
+  margin-top: auto;
+}
+
+.icon {
+  width: 25px;
+}
+
+.profile-content {
+  max-width: 992px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 30px 20px;
+}
+
+section.user-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section.user-section .user-info {
+  width: 100%;
+  display: flex;
+}
+
+section.user-section .user-info .profile-photo {
+
+  margin-left: 71px;
+  margin-right: 71px;
+}
+
+section.user-section .user-info .profile-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+section.user-section .user-info .profile-infos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+section.user-section .user-info .profile-infos .header-infos {
+  display: flex;
+  align-items: center;
+}
+
+section.user-section .user-info .profile-infos .header-infos span {
+  font-size: 1.25rem;
+}
+
+section.user-section .user-info .profile-infos .header-infos .buttons {
+  margin-left: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+section.user-section .user-info .profile-infos .header-infos .buttons img {
+  width: 28px;
+}
+
+section.user-section .user-info .profile-infos .header-infos .buttons button {
+  all: unset;
+  background-color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+section.user-section .user-info .profile-infos .profile-numbers {
+  display: flex;
+  gap: 3rem;
+}
+
+section.user-section .user-info .profile-infos .bio p {
+  font-size: 0.85rem;
+}
+
+section.user-section .user-info .profile-infos .bio .nickname {
+  font-weight: 500;
+  display: block;
+}
+
+section.user-section .highlights {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 0 3rem;
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+section.user-section .highlights .highlight {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+section.user-section .highlights .highlight img {
+  width: 77px;
+  height: 77px;
+  border: 2px solid var(--border-post);
+  border-radius: 100%;
+}
+
+section.user-section .highlights .highlight p {
+  font-size: 0.75rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.posts-options {
+
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid var(--border-post);
+  gap: 5rem;
+}
+
+.posts-options .option {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+}
+
+.posts-options .option span {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.posts-options .option img {
+  width: 15px;
+}
+
+.posts-options .option.active {
+  border-top: 2px solid white;
+}
+
+.posts-options .option.active span {
+  color: white;
+  font-weight: bold;
+}
+
+
+section.gallery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4px;
+}
+
+section.gallery .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4px;
+}
+
+section.gallery .row img {
+  width: 100%;
+}
