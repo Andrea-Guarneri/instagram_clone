@@ -2,7 +2,7 @@
 This project is a simple exercise in HTML and CSS aimed at recreating the basic layout and styling of the Instagram platform. It serves as a practice ground for implementing various CSS properties and techniques to achieve a visually appealing design.
 
 ## Features
-- Replicates the layout structure of the Instagram homepage.
+- Replicates the layout structure of the Instagram homepage, profile page and log in and form.
 - Utilizes HTML to create the basic structure of the page.
 - Implements CSS to style the page elements, including:
 - Flexbox for layout arrangement.
