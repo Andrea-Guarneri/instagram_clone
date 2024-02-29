@@ -1,5 +1,7 @@
+/* Aside */
+
 aside {
-  position: fixed;
+  position: sticky;
   z-index: 100;
   height: 100%;
 
@@ -11,7 +13,6 @@ aside {
   display: flex;
   flex-direction: column;
 }
-
 
 aside .header-sidebar {
   margin-bottom: 40px;
@@ -61,6 +62,7 @@ aside nav ul li a .notification {
   width: 20px;
   height: 20px;
   border-radius: 100%;
+  background-color: rgb(255, 43, 43);
 }
 
 aside nav ul li a#profile img {
@@ -75,6 +77,8 @@ aside .footer-sidebar {
 .icon {
   width: 25px;
 }
+
+/* Profile Content */
 
 .profile-content {
   max-width: 992px;
@@ -100,6 +104,8 @@ section.user-section .user-info {
   display: flex;
 }
 
+/* Profile picture */
+
 section.user-section .user-info .profile-photo {
 
   margin-left: 71px;
@@ -111,6 +117,8 @@ section.user-section .user-info .profile-photo img {
   height: 150px;
   border-radius: 100%;
 }
+
+/* Profile infos */
 
 section.user-section .user-info .profile-infos {
   display: flex;
@@ -128,6 +136,8 @@ section.user-section .user-info .profile-infos .header-infos span {
   font-size: 1.25rem;
 }
 
+/* Buttons */
+
 section.user-section .user-info .profile-infos .header-infos .buttons {
   margin-left: 1.25rem;
   display: flex;
@@ -135,8 +145,14 @@ section.user-section .user-info .profile-infos .header-infos .buttons {
   gap: 0.5rem;
 }
 
+section.user-section .user-info .profile-infos .header-infos .icone-verification {
+  width: 20px;
+  margin-left: 5px;
+}
+
 section.user-section .user-info .profile-infos .header-infos .buttons img {
   width: 28px;
+  cursor: pointer;
 }
 
 section.user-section .user-info .profile-infos .header-infos .buttons button {
@@ -146,12 +162,21 @@ section.user-section .user-info .profile-infos .header-infos .buttons button {
   border-radius: 0.5rem;
   font-size: 0.85rem;
   font-weight: 500;
+  cursor: pointer;
 }
+
+section.user-section .user-info .profile-infos .header-infos .buttons button:hover {
+  background-color: #272424;
+}
+
+/* Profile numbers */
 
 section.user-section .user-info .profile-infos .profile-numbers {
   display: flex;
   gap: 3rem;
 }
+
+/* Description profile */
 
 section.user-section .user-info .profile-infos .bio p {
   font-size: 0.85rem;
@@ -162,6 +187,8 @@ section.user-section .user-info .profile-infos .bio .nickname {
   display: block;
 }
 
+/* Highlights profile */
+
 section.user-section .highlights {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -170,6 +197,7 @@ section.user-section .highlights {
   display: flex;
   gap: 3rem;
   align-items: center;
+  cursor: pointer;
 }
 
 section.user-section .highlights .highlight {
@@ -190,6 +218,8 @@ section.user-section .highlights .highlight p {
   text-align: center;
   font-weight: 500;
 }
+
+/* Options posts */
 
 .posts-options {
 
@@ -212,10 +242,12 @@ section.user-section .highlights .highlight p {
 .posts-options .option span {
   font-size: 0.85rem;
   color: #aaa;
+  cursor: pointer;
 }
 
 .posts-options .option img {
   width: 15px;
+  cursor: pointer;
 }
 
 .posts-options .option.active {
@@ -227,12 +259,14 @@ section.user-section .highlights .highlight p {
   font-weight: bold;
 }
 
+/* Photos gallery */
 
 section.gallery {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 4px;
+  cursor: pointer;
 }
 
 section.gallery .row {
@@ -243,4 +277,6 @@ section.gallery .row {
 
 section.gallery .row img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
