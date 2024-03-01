@@ -1,8 +1,15 @@
-main {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.main-content {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.feed {
+  margin-top: 1rem;
+  max-width: 670px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .stories {
@@ -183,7 +190,6 @@ main {
 
 .comments-post {
   width: 100%;
-  height: 50%;
   font-size: 14px;
   display: flex;
   justify-content: space-between;
@@ -197,82 +203,84 @@ main {
   cursor: pointer;
 }
 
-/* Aside */
+/* Right Sidebar */
 
-aside {
-  position: fixed;
-  height: 100%;
-  top: 0;
-  left: 0;
-
-  padding: 40px 8px;
-  width: 245px;
-  border-right: 1px solid var(--border-post);
-
-  display: flex;
-  flex-direction: column;
+.right-sidebar {
+  margin-left: 4rem;
+  width: 325px;
+  padding: 2rem;
 }
 
-aside .header-sidebar {
-  margin-bottom: 40px;
-  padding-left: 16px;
-}
-
-aside .header-sidebar img {
-  width: 103px;
-}
-
-aside ul {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-aside ul li {
-  border-radius: 8px;
-  padding: 8px;
-  transition: background 0.5s;
-}
-
-aside ul li:hover {
-  background-color: #222;
-}
-
-aside ul li a {
+.profile {
   display: flex;
   align-items: center;
-  gap: 16px;
-  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-aside nav ul li a #messages {
-  display: flex;
-  position: relative;
-}
-
-aside nav ul li a .notification {
-  position: absolute;
-  top: -5px;
-  right: -10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  width: 20px;
-  height: 20px;
+.profile img {
+  width: 44px;
+  height: 44px;
   border-radius: 100%;
-  background-color: rgb(255, 43, 43);
+  cursor: pointer;
 }
 
-aside nav ul li a#profile img {
-  border-radius: 100%;
-  width: 30px;
+.profile .profile-infos {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.90rem;
 }
 
-aside .footer-sidebar {
-  margin-top: auto;
+.username {
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.icon {
-  width: 25px;
+.nickname {
+  color: #999;
+}
+
+.header-suggestions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.view-all {
+  font-size: 0.80rem;
+}
+
+.suggestions-fy {
+  color: #888;
+}
+
+.suggestions .nickname {
+  font-size: 0.80rem;
+}
+
+.link-blue {
+  color: #0095f6;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 0.80rem;
+}
+
+.link-blue:hover {
+  color: #daecf8;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer a {
+  color: #444;
 }
