@@ -156,6 +156,7 @@ main {
 }
 
 /* link */
+
 a {
     text-decoration: none;
     color: #385185;
@@ -166,31 +167,29 @@ a {
 
 .login-section-footer {
     width: 348px;
-    margin: 0px 0px 10px;
-    padding: 10px 0px;
-    display: flex;
     text-align: center;
+    display: flex;
     flex-direction: column;
     border: 1px solid #ccc;
+    background-color: #ffffff;
+    margin-top: 10px;
 }
 
-.login-section-footer .signup-section {
-    display: flex;
+.signup-section {
     align-items: center;
     justify-content: center;
 }
 
 /* signup-section */
+
 .signup-section {
-    margin: 0px 0px 10px;
+    margin: 10px 0px;
     padding: 10px 0px;
-    margin-top: 20px;
     text-align: center;
     color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .signup-link {
@@ -201,6 +200,7 @@ a {
 }
 
 /* app download section */
+
 .app-download-section {
     margin-top: 20px;
     text-align: center;
