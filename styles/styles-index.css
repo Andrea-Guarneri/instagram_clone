@@ -263,7 +263,7 @@
 }
 
 .link-blue {
-  color: #0095f6;
+  color: var(--blue);
   margin-left: auto;
   font-weight: 500;
   font-size: 0.80rem;
