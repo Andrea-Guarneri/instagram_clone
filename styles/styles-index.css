@@ -289,3 +289,32 @@
 .footer p {
   color: #444;
 }
+
+@media (max-width: 1500px) {
+  .right-sidebar {
+    width: auto;
+    max-width: 350px;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 1350px) {
+  .right-sidebar {
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .right-sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 765px) {
+
+  main,
+  .main-content,
+  .feed {
+    overflow: hidden;
+  }
+}

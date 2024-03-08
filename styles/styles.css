@@ -60,8 +60,12 @@ aside .header-sidebar {
     padding-left: 16px;
 }
 
-aside .header-sidebar img {
+aside .header-sidebar .logo-instagram-text {
     width: 103px;
+}
+
+aside .header-sidebar .logo-instagram {
+    display: none;
 }
 
 aside ul {
@@ -117,4 +121,91 @@ aside .footer-sidebar {
 
 .icon {
     width: 25px;
+}
+
+
+@media (max-width: 1400px) {
+    aside {
+        min-width: auto;
+        width: 30%;
+        max-width: 240px;
+        margin-right: 0.5rem;
+    }
+}
+
+
+@media (max-width: 1250px) {
+
+    aside {
+        width: auto;
+    }
+
+    aside li a span {
+        display: none;
+    }
+
+    aside .header-sidebar {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    aside .logo-instagram-text {
+        display: none;
+    }
+
+    aside .header-sidebar .logo-instagram {
+        display: block;
+        width: 25px;
+    }
+}
+
+
+@media (max-width: 765px) {
+
+    main {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside {
+        padding: 1.5rem 2rem;
+        border-right: none;
+        border-top: 1px solid var(--border-post);
+        height: 15px;
+        max-width: none;
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        background-color: black;
+        width: 100%;
+    }
+
+    aside .header-sidebar {
+        display: none;
+    }
+
+    aside nav {
+        width: 100%;
+        display: flex;
+    }
+
+    aside nav ul {
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    aside nav ul .invisible {
+        display: none;
+    }
+
+    aside .footer-sidebar {
+        display: none;
+    }
 }
