@@ -206,20 +206,24 @@ a {
 .login-section footer.download-section p {
   color: #000;
   text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
   font-size: 0.95rem;
 }
+
 
 .login-section footer.download-section .icons-apps {
   display: flex;
   justify-content: center;
+  gap: 0.6rem;
 }
 
 .login-section footer.download-section .icons-apps img {
-  max-width: 160px;
+  max-width: 140px;
+  margin-bottom: 1rem;
   cursor: pointer;
 }
+
 
 section.sign-up a {
   color: var(--blue);
