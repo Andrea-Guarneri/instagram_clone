@@ -122,6 +122,7 @@ a {
   padding-bottom: 0.5rem;
   border-radius: 10px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .login-section div.or {
@@ -155,6 +156,7 @@ a {
   justify-content: center;
   gap: 0.6rem;
   margin-bottom: 0.5rem;
+  cursor: pointer;
 }
 
 .login-section div.facebook-login img {
@@ -216,6 +218,7 @@ a {
 
 .login-section footer.download-section .icons-apps img {
   max-width: 160px;
+  cursor: pointer;
 }
 
 section.sign-up a {
