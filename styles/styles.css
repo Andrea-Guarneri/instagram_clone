@@ -9,7 +9,7 @@
     --background-dark-color: #000;
     --white-color-font: #eee;
     --border-photo-color-gradient: linear-gradient(45deg, rgb(255, 230, 0), rgb(255, 0, 128)80%);
-    --border-post: #222;
+    --border-post: rgb(85, 85, 85);
     --blue: #0095f6;
 }
 
