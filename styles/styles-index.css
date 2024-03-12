@@ -16,38 +16,49 @@
   align-items: center;
 }
 
-.stories {
-  display: flex;
-  flex-direction: column;
-}
+
 
 /* Highlights stories */
 
-.stories-content {
-  max-width: 1440px;
+.stories {
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
-.status-highlights {
-  width: 100%;
-  height: 120px;
+.right-arrow {
+  position: absolute;
+  height: 100%;
+  right: 0;
   display: flex;
-  cursor: pointer;
+  align-items: center;
+}
+
+.right-arrow img {
+  width: 25px;
+}
+
+.left-arrow {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  display: none;
+}
+
+.left-arrow img {
+  width: 25px;
 }
 
 .items-highlights {
   flex: 0 0 auto;
-  width: 70px;
-  height: 90px;
   display: flex;
   flex-direction: column;
-  margin-right: 15px;
 }
 
 /* Highlights profiles users stories */
 
-.highlights-profile {
+.user-with-story {
   width: 70px;
   height: 70px;
   border-radius: 100%;
@@ -58,7 +69,7 @@
 
 /* Highlights users photos and info profiles stories */
 
-.highlights-profile img {
+.user-with-story img {
   width: 100%;
   height: 100%;
   border-radius: 100%;
@@ -82,6 +93,7 @@
   max-width: 600px;
   height: auto;
   border-radius: 5px;
+  padding: 0px 1rem;
 }
 
 .post {
@@ -117,7 +129,7 @@
   align-items: center;
 }
 
-.header-post .highlights-profile {
+.header-post .user-with-story {
   height: 60px;
   width: 60px;
   padding: 2px;
@@ -138,12 +150,15 @@
 /* Images and videos setting posts*/
 
 .cover-post {
-  margin-top: 1rem;
   width: 100%;
-  height: 600px;
-  object-fit: cover;
-  border: 1px solid var(--border-post)
+  margin-top: 0.25rem;
+  display: flex;
 }
+
+.cover-post img {
+  border-radius: 5px;
+}
+
 
 
 /* Reaction icones posts*/
@@ -338,7 +353,6 @@
     padding: 1rem 1rem;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
   }
 
   .header-mobile img.logo {
@@ -385,5 +399,95 @@
   .main-content,
   .feed {
     overflow: hidden;
+  }
+}
+
+@media (max-width: 700px) {
+  .cover-post {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .cover-post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .left-arrow {
+    display: flex;
+    align-items: center;
+  }
+
+  .stories {
+    max-width: 590px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cover-post {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .stories {
+    max-width: 550px;
+  }
+}
+
+@media(max-width: 550px) {
+  .stories {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cover-post {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .header-mobile .logo {
+    margin-right: 1rem;
+  }
+
+  .header-mobile .box-search {
+    width: 100%;
+    max-width: 210px;
+  }
+
+  .stories {
+    max-width: 450px;
+  }
+
+
+}
+
+@media (max-width: 450px) {
+  .stories {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cover-post {
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .header-mobile .box-search {
+    max-width: 175px;
+  }
+
+  .stories {
+    max-width: 350px;
   }
 }
