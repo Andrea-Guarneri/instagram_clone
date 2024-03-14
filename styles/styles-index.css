@@ -50,6 +50,13 @@
   width: 25px;
 }
 
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 0.2rem;
+}
+
 .story p {
   margin-left: 10px;
   justify-content: center;
