@@ -147,6 +147,7 @@ aside .footer-sidebar {
     }
 
     aside .header-sidebar {
+
         padding: 0;
         display: flex;
         align-items: center;
@@ -162,7 +163,6 @@ aside .footer-sidebar {
         width: 25px;
     }
 }
-
 
 @media (max-width: 765px) {
 
@@ -188,8 +188,10 @@ aside .footer-sidebar {
         width: 100%;
     }
 
+
     aside .header-sidebar {
         display: none;
+
     }
 
     aside nav {
