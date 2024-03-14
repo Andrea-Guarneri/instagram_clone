@@ -50,6 +50,12 @@
   width: 25px;
 }
 
+.story p {
+  margin-left: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
 .items-highlights {
   flex: 0 0 auto;
   display: flex;

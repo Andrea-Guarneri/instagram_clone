@@ -38,6 +38,7 @@ main {
 }
 
 /* Aside */
+
 aside {
     position: sticky;
     top: 0;
@@ -123,6 +124,7 @@ aside .footer-sidebar {
     width: 25px;
 }
 
+/* Media queries */
 
 @media (max-width: 1400px) {
     aside {
