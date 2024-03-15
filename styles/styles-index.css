@@ -366,10 +366,12 @@
     padding: 1rem 1rem;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
   }
 
   .header-mobile img.logo {
     width: 105px;
+    cursor: pointer;
   }
 
   .header-mobile div.box-right {
@@ -377,6 +379,7 @@
     align-items: center;
     height: 100%;
     gap: 1.25rem;
+    cursor: pointer;
   }
 
 
@@ -402,6 +405,7 @@
 
   .header-mobile .box-search img {
     width: 18px;
+    cursor: pointer;
   }
 
   .header-mobile div img.like {

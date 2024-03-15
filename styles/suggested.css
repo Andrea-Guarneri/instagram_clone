@@ -34,8 +34,8 @@ main {
     /* Posiziona il bottone a destra */
 }
 
-.link-blue:hover {
-    background-color: #3897f0;
+.follow-btn:hover {
+    background-color: #0e4374;
     color: #fff;
     text-decoration: none;
 }
@@ -88,12 +88,9 @@ section.suggestions .profile-infos .nickname {
     display: flex;
     flex-direction: row;
     width: auto;
-    /* Imposta la larghezza automatica */
     text-align: right;
-    /* Allinea il testo a destra */
     align-items: center;
     margin-bottom: 5px;
-    /* Aggiungi spazio tra le informazioni del profilo */
 }
 
 section.suggestions .profile-infos .username {
@@ -117,4 +114,20 @@ section.suggestions .profile .follow-btn {
     border-radius: 8px;
     font-size: 0.85rem;
     font-weight: 500;
+}
+
+section.suggestions .profile .follow-btn:hover {
+    background-color: #1165b3;
+}
+
+/* FOOTER */
+
+section .footer {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+section .copy {
+    margin-top: 0.85rem;
+    color: #444;
 }
