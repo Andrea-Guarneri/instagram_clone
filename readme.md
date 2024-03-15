@@ -1,5 +1,5 @@
 # Instagram Clone Exercise
-This project is a simple exercise in HTML and CSS aimed at recreating the basic layout and styling of the Instagram platform. It serves as a practice ground for implementing various CSS properties and techniques to achieve a visually appealing design.
+This project is a exercise in HTML and CSS aimed at recreating the basic layout and styling of the Instagram platform. It serves as a practice ground for implementing various CSS properties and techniques to achieve a visually appealing design and responsiveness.
 
 ## Features
 - Replicates the layout structure of the Instagram homepage, profile page and log in and form.
@@ -16,7 +16,7 @@ This project is a simple exercise in HTML and CSS aimed at recreating the basic 
 
 - Open the index.html file in your preferred web browser.
 
-- Explore the Instagram clone interface and the CSS properties used for styling.
+- Explore the Instagram clone interface and the CSS properties used for styling and responsiveness.
 
 ## Credits
 This project is inspired by the Instagram platform and serves as an exercise in HTML and CSS. It was created by Andrea Guarneri.
