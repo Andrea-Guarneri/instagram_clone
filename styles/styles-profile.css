@@ -269,3 +269,49 @@ section.gallery .row img {
   }
 
 }
+
+@media (max-width: 700px) {
+  section.user-section .highlights {
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-content .user-section .user-info .profile-photo {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+
+}
+
+@media (max-width: 550px) {
+  .profile-content .user-section .user-info .profile-photo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  section.user-section .user-info .profile-infos .profile-numbers {
+    gap: 1rem;
+  }
+
+  section.user-section .highlights {
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+
+  section.user-section .user-info .profile-infos .profile-numbers {
+    gap: 0.5rem;
+  }
+
+  section.user-section .user-info .profile-infos .profile-numbers div b,
+  section.user-section .user-info .profile-infos .profile-numbers div {
+    font-size: 0.85rem;
+  }
+}

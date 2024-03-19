@@ -20,6 +20,3 @@ This project is a exercise in HTML and CSS aimed at recreating the basic layout 
 
 ## Credits
 This project is inspired by the Instagram platform and serves as an exercise in HTML and CSS. It was created by Andrea Guarneri.
-
-
-
