@@ -2,7 +2,7 @@
 
 This project is an **HTML and CSS exercise** designed to recreate the core layout and styling of the Instagram platform. It serves as a practical exploration of web design techniques, focusing on **responsiveness** and **layout design** to achieve an appealing, modern look.
 
-To view this site, you'll need to enter the this password: f675b731cd208528a21050ae027c6911
+To view this site, you'll need to enter the password: f675b731cd208528a21050ae027c6911
 
 🔗 **Live Demo**: [Instagram Clone](https://insta-clone-ag.netlify.app/)
 
